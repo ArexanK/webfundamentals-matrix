@@ -20,6 +20,21 @@ body {
   border-radius: 20px;
   padding: 2rem 2rem;
 }
+.close-button {
+  display: flex;
+  top: 1rem;
+  left: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+.close-button img {
+  width: 30px;
+  height: 30px;
+}
 
 h1 {
   font-size: 2rem;
