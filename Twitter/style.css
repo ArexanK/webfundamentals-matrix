@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3d3d3;
+  font-family: "sans-serif";
+}
+
+.box-content {
+  background-color: white;
+  margin: 0 auto;
+  border: 1px solid white;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  margin-top: 5rem;
+  border-radius: 20px;
+  padding: 2rem 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.button-google,
+.button-apple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d3d3d3;
+  gap: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.button-google img,
+.button-apple img {
+  width: 30px;
+}
+
+p {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 300px;
+}
+
+p::before,
+p::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: #d3d3d3;
+}
+
+p::before {
+  left: 0;
+}
+
+p::after {
+  right: 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.8rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.button-next,
+.button-password {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 0;
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.button-next {
+  background-color: black;
+  color: white;
+}
+
+.button-password {
+  background-color: white;
+  color: black;
+}
+
+.signup-link {
+  color: grey;
+  margin-top: 1rem;
+}
