@@ -7,10 +7,11 @@
 body {
   background-color: #ededed;
   width: 1000px;
+  margin: 0 auto;
 }
 header {
   display: flex;
-  width: 100%;
+  width: 90%;
   justify-content: space-between;
   padding: 5px;
   padding-left: 20px;
@@ -18,9 +19,11 @@ header {
 h2 {
   background-color: #d4d4d4;
   width: 300px;
+  text-align: center;
 }
 p {
   font-size: 1.2rem;
+  padding: 5px;
 }
 
 .content-wrapper {
@@ -69,13 +72,6 @@ p {
 .housing,
 .jobs,
 .personals,
-.sale-wanted {
-  border: 1px solid #ededed;
-}
-.community-events,
-.housing,
-.jobs,
-.personals,
 .sale-wanted,
 ul li {
   list-style: none;
@@ -98,8 +94,10 @@ p {
 .sale-wanted {
   margin: 1rem 1rem;
   background-color: white;
+  /* border: 1px solid #ededed; */
   width: 200px;
 }
 .wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
