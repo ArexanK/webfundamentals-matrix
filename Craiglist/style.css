@@ -78,14 +78,31 @@ ul li {
   border-bottom: 1px solid #ddd;
 }
 
-.community-events,
-.housing,
-.jobs,
-.personals,
-.sale-wanted,
-p {
+.listHeader {
   background-color: #c7c7c7;
   font-weight: bold;
+}
+
+.separateColumn {
+  background-color: rgb(238, 238, 238);
+  margin-top: 1rem;
+}
+.separateList {
+  border-top: 1px solid #ddd;
+}
+
+.separateList {
+  margin-top: 1rem;
+  background: white;
+}
+
+.extraItem {
+  margin: 30px 0px 0px 0px;
+}
+
+.secondListHeader {
+  margin: 10px 0px 0px 0px;
+  background-color: #c7c7c7;
 }
 .community-events,
 .housing,
@@ -93,10 +110,14 @@ p {
 .personals,
 .sale-wanted {
   margin: 1rem 1rem;
-  background-color: white;
-  /* border: 1px solid #ededed; */
+  /* background-color: white; */
   width: 200px;
 }
+
+.list-color {
+  background-color: white;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
