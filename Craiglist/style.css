@@ -78,29 +78,25 @@ ul li {
   border-bottom: 1px solid #ddd;
 }
 
-.listHeader {
+.list-header {
   background-color: #c7c7c7;
   font-weight: bold;
 }
 
-.separateColumn {
+.separate-column {
   background-color: rgb(238, 238, 238);
   margin-top: 1rem;
 }
-.separateList {
+.separate-list {
   border-top: 1px solid #ddd;
 }
 
-.separateList {
+.separate-list {
   margin-top: 1rem;
   background: white;
 }
 
-.extraItem {
-  margin: 30px 0px 0px 0px;
-}
-
-.secondListHeader {
+.second-list-header {
   margin: 10px 0px 0px 0px;
   background-color: #c7c7c7;
 }
@@ -110,7 +106,6 @@ ul li {
 .personals,
 .sale-wanted {
   margin: 1rem 1rem;
-  /* background-color: white; */
   width: 200px;
 }
 
