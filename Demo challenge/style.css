@@ -104,6 +104,10 @@ nav {
   font-weight: bold;
 }
 
+.aside-text-box {
+  display: flex;
+}
+
 .send-text,
 .request-text,
 .center-text {
