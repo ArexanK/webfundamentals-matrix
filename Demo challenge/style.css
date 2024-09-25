@@ -82,6 +82,14 @@ nav {
   margin-top: 20px;
 }
 
+.news-container > div {
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  max-width: 10rem;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 .btn-login,
 .btn-signup {
   display: flex;
@@ -146,12 +154,19 @@ h1 {
 .spotlight-container > h3 {
   border-bottom: 1px solid #cccccc;
   background-color: #f2f2f2;
+  padding: 10px 10px;
 }
 
 .text-spotlight-container {
   display: flex;
   padding: 1rem;
   max-width: 30rem;
+}
+
+.business-title,
+.auction-title {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .footer-menu {
